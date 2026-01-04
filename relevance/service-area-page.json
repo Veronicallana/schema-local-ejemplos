@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://*DOMINIO*/*zona-servicio*/#webpage",
+      "url": "https://*DOMINIO*/*zona-servicio*/",
+      "name": "*Servicios en Zona | Marca*",
+      "inLanguage": "es-ES",
+      "mainEntity": { "@id": "https://*DOMINIO*/*zona-servicio*/#service" },
+      "about": [
+        {
+          "@type": "Place",
+          "name": "*Zona / Ciudad / Provincia*"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://*DOMINIO*/*zona-servicio*/#service",
+      "name": "*Servicio en Zona (sin sede física)*",
+      "serviceType": "*Servicio*",
+      "description": "*Explica que se presta servicio en la zona sin afirmar presencia física.*",
+      "provider": { "@id": "https://*DOMINIO*/#loc-main" },
+      "serviceArea": {
+        "@type": "AdministrativeArea",
+        "name": "*Zona / Ciudad / Provincia*"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://*DOMINIO*/*zona-servicio*/",
+        "availableLanguage": ["es"]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://*DOMINIO*/#loc-main",
+      "name": "*Marca*",
+      "url": "https://*DOMINIO*/"
+    }
+  ]
+}
