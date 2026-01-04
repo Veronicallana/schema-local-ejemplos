@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://DOMINIO/#loc-main",
+  "name": "NOMBRE DE LA MARCA",
+  "url": "https://DOMINIO/",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "reviewCount": "128",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Nombre del cliente"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "reviewBody": "Descripción breve y real de la experiencia con el servicio.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google Business Profile"
+      }
+    }
+  ],
+  "sameAs": [
+    "URL_FUENTE_RESEÑAS_PRINCIPAL"
+  ]
+}
