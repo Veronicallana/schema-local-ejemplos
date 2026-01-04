@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://DOMINIO/#org",
+  "name": "NOMBRE DE LA MARCA",
+  "url": "https://DOMINIO/",
+  "subjectOf": [
+    {
+      "@type": "Article",
+      "headline": "Título del artículo o mención",
+      "url": "URL_ARTICULO",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Nombre del medio o portal"
+      }
+    },
+    {
+      "@type": "Article",
+      "headline": "Otra mención relevante",
+      "url": "URL_OTRA_MENCION",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Otro medio o entidad"
+      }
+    }
+  ]
+}
