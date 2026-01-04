@@ -146,4 +146,6 @@ Antes de aplicar cualquiera de los ejemplos de este repositorio, es importante e
 
 👉 [Ver anti-patterns y errores comunes](anti-patterns.md)
 
+Autor: Verónica Llana Celada (ORCID: https://orcid.org/0000-0003-0876-2344)
+
 
