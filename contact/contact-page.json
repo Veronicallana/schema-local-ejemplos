@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "https://DOMINIO/contacto/#contactpage",
+      "url": "https://DOMINIO/contacto/",
+      "name": "Contacto",
+      "inLanguage": "es-ES",
+      "about": { "@id": "https://DOMINIO/#org" },
+      "mainEntity": { "@id": "https://DOMINIO/#contactpoint" },
+      "isPartOf": { "@id": "https://DOMINIO/#website" }
+    },
+    {
+      "@type": "ContactPoint",
+      "@id": "https://DOMINIO/#contactpoint",
+      "contactType": "Atención al cliente",
+      "availableLanguage": ["es"],
+      "email": "mailto:EMAIL@DOMINIO",
+      "telephone": "+34 000 000 000",
+      "url": "https://DOMINIO/contacto/",
+      "areaServed": [
+        { "@type": "Country", "name": "España" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://DOMINIO/#org",
+      "name": "NOMBRE DE LA MARCA",
+      "url": "https://DOMINIO/",
+      "contactPoint": [{ "@id": "https://DOMINIO/#contactpoint" }]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://DOMINIO/#website",
+      "url": "https://DOMINIO/",
+      "name": "NOMBRE DE LA MARCA",
+      "inLanguage": "es-ES"
+    }
+  ]
+}
