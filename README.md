@@ -122,4 +122,50 @@ El marcado permite conectar la entidad con:
 ---
 
 ## Estructura del repositorio
+/
+├── README.md
+├── fundamentos-seo-local.md
+├── proximity/
+│ ├── localbusiness-single-location.json
+│ ├── localbusiness-multi-location-graph.json
+│ └── location-page-template.json
+├── relevance/
+│ ├── local-service-page.json
+│ ├── service-area-page.json
+├── prominence/
+│ ├── reviews-and-ratings.json
+│ ├── sameas-and-citations.json
+│ └── media-mentions-pattern.json
+├── contact/
+│ └── contact-page.json
+└── anti-patterns.md
+
+
+---
+
+## Principios de uso
+
+- El schema debe reflejar **lo que ve el usuario**
+- Menos propiedades bien conectadas > muchas sin contexto
+- Una entidad mal definida es peor que ninguna
+- La coherencia entre páginas es más importante que el detalle extremo
+
+---
+
+## Nota final
+
+Este repositorio no pretende “hacer ranking”, sino **modelar entidades locales de forma correcta y sostenible**.
+
+El objetivo es que:
+- Google entienda mejor quién es la entidad
+- no haya ambigüedad entre sedes, servicios y marca
+- las señales reales de proximidad, relevancia y prominencia se consoliden a largo plazo
+
+
+## Anti-patterns y errores comunes
+
+Antes de aplicar cualquiera de los ejemplos de este repositorio, es importante entender qué **no** hacer al trabajar con datos estructurados para SEO local.
+
+👉 [Ver anti-patterns y errores comunes](anti-patterns.md)
+
 
