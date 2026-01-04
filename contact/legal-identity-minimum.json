@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://DOMINIO/#org",
+  "name": "NOMBRE DE LA MARCA",
+  "url": "https://DOMINIO/",
+  "legalName": "NOMBRE LEGAL REGISTRADO (si aplica)",
+  "taxID": "NIF/CIF (si aplica)",
+  "email": "EMAIL@DOMINIO",
+  "telephone": "+34 000 000 000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle y número",
+    "addressLocality": "Ciudad",
+    "addressRegion": "Provincia/CCAA",
+    "postalCode": "CP",
+    "addressCountry": "ES"
+  },
+  "legalAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "Dirección legal (si es distinta; si no, elimina legalAddress)",
+    "addressLocality": "Ciudad",
+    "addressRegion": "Provincia/CCAA",
+    "postalCode": "CP",
+    "addressCountry": "ES"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Atención al cliente",
+      "email": "mailto:EMAIL@DOMINIO",
+      "telephone": "+34 000 000 000",
+      "url": "https://DOMINIO/contacto/",
+      "availableLanguage": ["es"]
+    }
+  ],
+  "companyRegistration": {
+    "@type": "Certification",
+    "name": "Registro mercantil / cámara de comercio (si aplica)",
+    "issuedBy": {
+      "@type": "Organization",
+      "name": "Entidad emisora (si aplica)"
+    },
+    "url": "URL_DE_REFERENCIA_PUBLICA (si existe)"
+  }
+}
