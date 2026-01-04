@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://DOMINIO/#org",
+  "name": "NOMBRE DE LA MARCA",
+  "url": "https://DOMINIO/",
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "Asociación profesional o cluster sectorial",
+      "url": "URL_ASOCIACION"
+    }
+  ],
+  "hasCertification": [
+    {
+      "@type": "Certification",
+      "name": "Certificación o acreditación",
+      "issuedBy": {
+        "@type": "Organization",
+        "name": "Entidad certificadora"
+      },
+      "url": "URL_CERTIFICACION"
+    }
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Licencia, habilitación o registro profesional",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Organismo regulador"
+      }
+    }
+  ],
+  "sameAs": [
+    "URL_FICHA_OFICIAL_EN_REGISTRO_O_DIRECTORIO"
+  ]
+}
