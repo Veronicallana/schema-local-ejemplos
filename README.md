@@ -121,28 +121,6 @@ El marcado permite conectar la entidad con:
 
 ---
 
-## Estructura del repositorio
-/
-├── README.md
-├── fundamentos-seo-local.md
-├── proximity/
-│ ├── localbusiness-single-location.json
-│ ├── localbusiness-multi-location-graph.json
-│ └── location-page-template.json
-├── relevance/
-│ ├── local-service-page.json
-│ ├── service-area-page.json
-├── prominence/
-│ ├── reviews-and-ratings.json
-│ ├── sameas-and-citations.json
-│ └── media-mentions-pattern.json
-├── contact/
-│ └── contact-page.json
-└── anti-patterns.md
-
-
----
-
 ## Principios de uso
 
 - El schema debe reflejar **lo que ve el usuario**
