@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://*DOMINIO*/*servicio-ciudad*/#webpage",
+      "url": "https://*DOMINIO*/*servicio-ciudad*/",
+      "name": "*Servicio en Ciudad | Marca*",
+      "inLanguage": "es-ES",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "*Concepto principal del servicio*",
+          "sameAs": "*Wikipedia/Wikidata del concepto (si existe)*"
+        }
+      ],
+      "mainEntity": { "@id": "https://*DOMINIO*/*servicio-ciudad*/#service" },
+      "isPartOf": { "@id": "https://*DOMINIO*/#website" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://*DOMINIO*/*servicio-ciudad*/#service",
+      "name": "*Servicio (Ciudad)*",
+      "serviceType": "*Nombre del servicio*",
+      "description": "*Descripción corta del servicio en esa zona, sin keyword stuffing.*",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "*Ciudad / Provincia*"
+      },
+      "provider": { "@id": "https://*DOMINIO*/#loc-main" },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://*DOMINIO*/*servicio-ciudad*/",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://*DOMINIO*/#website",
+      "url": "https://*DOMINIO*/",
+      "name": "*Marca*",
+      "inLanguage": "es-ES"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://*DOMINIO*/#loc-main",
+      "name": "*Marca*",
+      "url": "https://*DOMINIO*/"
+    }
+  ]
+}
