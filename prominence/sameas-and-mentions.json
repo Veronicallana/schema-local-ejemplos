@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://DOMINIO/#org",
+  "name": "NOMBRE DE LA MARCA",
+  "url": "https://DOMINIO/",
+  "sameAs": [
+    "URL_GBP_PUBLICA_ESTABLE",
+    "URL_LINKEDIN_EMPRESA",
+    "URL_FACEBOOK_OFICIAL",
+    "URL_INSTAGRAM_OFICIAL",
+    "URL_DIRECTORIO_SECTORIAL_RELEVANTE"
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "Asociación / Cluster (si aplica)",
+      "url": "URL_ASOCIACION"
+    }
+  ],
+  "award": [
+    "Premio o reconocimiento (si aplica)"
+  ],
+  "subjectOf": [
+    {
+      "@type": "Article",
+      "headline": "Mención o artículo sobre la empresa (si aplica)",
+      "url": "URL_ARTICULO",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Medio / entidad que publica"
+      }
+    }
+  ]
+}
